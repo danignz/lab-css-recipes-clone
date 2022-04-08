@@ -47,8 +47,8 @@
 
 hr {
     width: 90%;
-    margin: 20px auto 30px auto;
-    border: 1px solid rgb(83, 83, 83);
+    margin: 30px auto 30px auto;
+    border: 2px solid rgb(124, 124, 124);
 }
 
 .img-resize {
@@ -61,7 +61,6 @@ hr {
 
 #ingredients {
     padding-left: 100px;
-    
 }
 
 #ingredients > article > img{
@@ -69,21 +68,41 @@ hr {
     margin: 0px auto;
     height: 90px;
     width: 600px;
+    padding-right: 150px;
 }
 
 ul {
     list-style: none;
-    margin-left: 0;
-    padding-left: 10px;
-    padding-right: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
-li:before {
+h3{
+    font-size: 2.6em;
+}
+
+ul > li:before {
     content: "-";
-    padding-right: 15px;
-  }
+    padding-right: 5px;
+}
+
+.main-font > li {
+    font-size: 2.3em;
+}
+
+/* Directions Section Styles */
 
 #directions {
+    padding-left: 100px;
+}
 
+ol {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 90%;
+    padding-bottom: 50px;
+    text-align: left;
+}
+
+#directions > article > ol > li::marker {
+    content: counters(list-item, '.') ') ';
 }
