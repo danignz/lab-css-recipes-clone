@@ -11,11 +11,10 @@
 
 /* Header Styles */
 .header {
-    margin-top: -170px;
+    margin-top: -150px;
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
-    height: 1260px;
-    width: 100vw;
+    height: 1270px;
 }
 
 .header > h1 {
@@ -25,6 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: lighter;
 }
 
 /* Intro Section Styles */
@@ -47,14 +47,14 @@
 
 hr {
     width: 90%;
-    margin: 30px auto 30px auto;
+    margin: 40px auto 60px auto;
     border: 2px solid rgb(124, 124, 124);
 }
 
-.img-resize {
+#img1-resize {
     margin-top: 45px;
-    height: 100px;
-    width: 750px;
+    height: 130px;
+    width: 760px;
 }
 
 /* Ingredients Section Styles */
@@ -66,8 +66,6 @@ hr {
 #ingredients > article > img{
     display: block;
     margin: 0px auto;
-    height: 90px;
-    width: 600px;
     padding-right: 150px;
 }
 
@@ -76,17 +74,23 @@ ul {
     margin-bottom: 50px;
 }
 
-h3{
+.headerstyle > h2{
     font-size: 2.6em;
 }
 
 ul > li:before {
     content: "-";
-    padding-right: 5px;
+    padding-left: 15px;
 }
 
 .main-font > li {
     font-size: 2.3em;
+}
+
+#img2-resize {
+    margin-top: 60px;
+    height: 130px;
+    width: 700px;
 }
 
 /* Directions Section Styles */
@@ -95,12 +99,22 @@ ul > li:before {
     padding-left: 100px;
 }
 
+#directions > article > ol{
+    padding-bottom: 75px;
+}
+
+#directions > article > ol > li{
+    text-align:left;
+}
+
 ol {
     margin-bottom: 50px;
-    margin-left: 50px;
-    width: 90%;
-    padding-bottom: 50px;
-    text-align: left;
+    width: 93%;
+    list-style-position:inside;
+}
+
+ol > li {
+    padding-left: 15px;
 }
 
 #directions > article > ol > li::marker {
