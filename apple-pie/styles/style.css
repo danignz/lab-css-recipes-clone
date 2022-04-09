@@ -12,11 +12,11 @@
     margin-top: -150px;
     background-image: url('../images/apple-pie.jpg');
     background-size: cover;
-    height: 1270px;
+    height: 140vh;
 }
 
 .header > h1 {
-    padding-top: 570px;
+    padding-top: 62vh;
     color: white;
     font-size: 8em;
     display: flex;
